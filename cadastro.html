@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <title>VOICES OF THE INNOCENT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    
+</head>
+<body>
+     <header> 
+
+        <h1>Seja um de nós</h1>
+
+
+         <nav>
+              <ul>
+                  <li><a href="index.html">Início</a></li> 
+                  <li><a href="sobre.html">Sobre</a></li>
+                  <li><a href="projetos.html">Projetos</a></li>
+                  <li><a href="cadastro.html">Voluntariado</a></li>
+                  <li><a href="doacoes.html">Como doar</a></li>
+              </ul>
+               
+        </nav>
+         </header>
+
+    <main>
+         <form>
+            <fieldset class="grupo">
+              <legend style="text-align: center;"> Formulário de Voluntariado</legend>
+                
+                <div class="campo">
+                <label for="nome"><strong>Nome completo</strong></label>
+                <input type="text" name= "nome" id="nome" required>
+              </div>
+
+                <div class="campo">
+                    <label for="email"><strong>E-mail</strong></label>
+                    <input type="email" name= "email" id="email" required>
+                </div>
+
+                <div class="campo">
+                    <label for="telefone"><strong>telefone</strong></label>
+                    <input type="tel" name= "telefone" id="telefone" required> 
+                </div>
+
+                <div class="campo">
+                        <label for="cpf"><strong>CPF</strong></label>
+                        <input type="text" name= "cpf" id="cpf" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="cep"><strong>CEP</strong></label>
+                        <input type="text" pattern="[0-9]{5}-[0-9]{3}" name= "cep" id="cep" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="data_nascimento"><strong>Data de Nascimento</strong></label>
+                        <input type="date" name= "data_nascimento" id="data_nascimento" required>
+                    </div>
+
+                    <div class="campo">
+
+                        <label for="endereco"><strong>Endereço</strong></label>
+                        <input type="text" name= "endereco" id="endereco" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="cidade"><strong>Cidade</strong></label>
+                        <input type="text" name= "cidade" id="cidade" required>
+                    </div>
+                    <div class="campo">
+                        <label for="estado"><strong>Estado</strong></label>
+                        <input type="text" name= "estado" id="estado" required>
+                    </div>
+
+                <div class="campo">
+                    <label for="gênero"><strong>Gênero</strong> </label>
+                    <label>
+                    <input type="radio" name= "genero" value= "masculino"> Masculino
+                    </label>
+                    <label>
+                    <input type="radio" name="genero" value="Feminino"> Feminino
+                    </label>
+                    <label>
+                    <input type="radio" name="genero" value="outro"> Outro
+                    </label>
+                </div>
+                <div class="campo">
+                    <labe><strong> Conte um pouco da sua experiência</strong></labe>
+                    <textarea rows="6" style="width: 25em;" name="experiencia" id="experiencia"></textarea>
+                </div>
+                <button class= "botao" type="submit">Enviar</button>
+            </fieldset>
+            </form>
+    </main>
+    
+            <footer>
+                <p>&copy; 2025 VOICES OF THE INNOCENT | Todos os direitos reservados.</p>
+            </footer>
+        </body>
+</html>

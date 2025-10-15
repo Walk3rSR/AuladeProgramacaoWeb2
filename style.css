@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Honk:MORF,SHLN@16,55.6&family=Nosifer&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: #f4f0ea;
+    color:#798252;
+    font-family: "cabin", sans-serif;
+    font-weight: 400;
+}
+header{
+    padding: 2rem;
+   
+}
+h1{
+
+   background-color: #798252;
+    padding: 2rem;
+    border-radius: 40px;
+    margin: 12px;
+    text-align: center;
+    font-family: "honk", sans-serif;  
+    font-size: 40px;  
+    
+}
+ 
+    nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 15px;
+    }
+
+    nav a {
+    color: #5a633c;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    h2{
+      background-color: aliceblue;
+      border: 6px solid #798252;
+      border-radius: 40px;
+        padding: 2rem;
+      text-align: center; ;
+    }
+    p{
+        padding: 1rem;
+        text-align: center;
+        color: #000000;
+        font-size: 20px;
+    }
+    
+    figure{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    
+    .botao-doacao {
+    display: inline-block;
+    background-color: #4ebe03; 
+    border-radius: 40px;
+    color: #ffffff; 
+
+  
+    padding: 15px 30px;
+    border-radius: 6px; 
+    font-size: 18px;
+    font-weight: bold;
+   
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.botao-doacao:hover {
+    background-color: #007bb8; 
+    
+}
